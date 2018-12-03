@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: dd34910a8e8d0ec4884bc597b64ad9e5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Landscape.000
+    100002: Landscape.001
+    100004: Landscape.002
+    100006: Landscape.004
+    100008: Landscape.005
+    100010: Landscape.006
+    100012: Landscape.007
+    100014: Landscape.008
+    100016: Landscape.009
+    100018: Landscape.010
+    100020: Landscape.011
+    100022: Landscape.012
+    100024: Landscape.013
+    100026: Landscape.014
+    100028: Landscape.015
+    100030: Landscape.016
+    100032: Landscape.017
+    100034: Landscape.018
+    100036: Landscape.019
+    100038: Landscape.020
+    100040: Plane
+    100042: //RootNode
+    100044: Untitled
+    400000: Landscape.000
+    400002: Landscape.001
+    400004: Landscape.002
+    400006: Landscape.004
+    400008: Landscape.005
+    400010: Landscape.006
+    400012: Landscape.007
+    400014: Landscape.008
+    400016: Landscape.009
+    400018: Landscape.010
+    400020: Landscape.011
+    400022: Landscape.012
+    400024: Landscape.013
+    400026: Landscape.014
+    400028: Landscape.015
+    400030: Landscape.016
+    400032: Landscape.017
+    400034: Landscape.018
+    400036: Landscape.019
+    400038: Landscape.020
+    400040: Plane
+    400042: //RootNode
+    400044: Untitled
+    2100000: DUNAS
+    2100002: Tierra
+    2100004: Fondo
+    2100006: Material
+    2100008: iZQUIERDA
+    2100010: 2
+    2100012: 3
+    2100014: 4
+    2100016: 5
+    2100018: 6
+    2100020: 7
+    2100022: 1
+    2100024: 8
+    2100026: FondoParteInferior
+    2100028: CentroDePelea
+    2100030: FondoParteIzquierda
+    2100032: FondoParteIzquierda3
+    2100034: FondoParteIzquierda3.001
+    2100036: FondoParteIzquierda2
+    2300000: Landscape.000
+    2300002: Landscape.001
+    2300004: Landscape.002
+    2300006: Landscape.004
+    2300008: Landscape.005
+    2300010: Landscape.006
+    2300012: Landscape.007
+    2300014: Landscape.008
+    2300016: Landscape.009
+    2300018: Landscape.010
+    2300020: Landscape.011
+    2300022: Landscape.012
+    2300024: Landscape.013
+    2300026: Landscape.014
+    2300028: Landscape.015
+    2300030: Landscape.016
+    2300032: Landscape.017
+    2300034: Landscape.018
+    2300036: Landscape.019
+    2300038: Landscape.020
+    2300040: Plane
+    2300042: Untitled
+    3300000: Landscape.000
+    3300002: Landscape.001
+    3300004: Landscape.002
+    3300006: Landscape.004
+    3300008: Landscape.005
+    3300010: Landscape.006
+    3300012: Landscape.007
+    3300014: Landscape.008
+    3300016: Landscape.009
+    3300018: Landscape.010
+    3300020: Landscape.011
+    3300022: Landscape.012
+    3300024: Landscape.013
+    3300026: Landscape.014
+    3300028: Landscape.015
+    3300030: Landscape.016
+    3300032: Landscape.017
+    3300034: Landscape.018
+    3300036: Landscape.019
+    3300038: Landscape.020
+    3300040: Plane
+    3300042: Untitled
+    4300000: Plane
+    4300002: Landscape.020
+    4300004: Landscape.019
+    4300006: Landscape.018
+    4300008: Landscape.017
+    4300010: Landscape.016
+    4300012: Landscape.015
+    4300014: Landscape.014
+    4300016: Landscape.013
+    4300018: Landscape.012
+    4300020: Landscape.011
+    4300022: Landscape.010
+    4300024: Landscape.008
+    4300026: Landscape.005
+    4300028: Landscape.001
+    4300030: Landscape.009
+    4300032: Landscape.007
+    4300034: Landscape.006
+    4300036: Landscape.004
+    4300038: Untitled
+    4300040: Landscape.000
+    4300042: Landscape.002
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

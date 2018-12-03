@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: a8c5a55910c52b344a576d3d9d82484f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Landscape_000
+    100002: Landscape_001
+    100004: Landscape_002
+    100006: Landscape_004
+    100008: Landscape_005
+    100010: Landscape_006
+    100012: Landscape_007
+    100014: Landscape_008
+    100016: Landscape_009
+    100018: Landscape_010
+    100020: Landscape_011
+    100022: Landscape_012
+    100024: Landscape_013
+    100026: Landscape_014
+    100028: Landscape_015
+    100030: Landscape_016
+    100032: Landscape_017
+    100034: Landscape_018
+    100036: Landscape_019
+    100038: Landscape_020
+    100040: Plane
+    100042: //RootNode
+    100044: Untitled
+    400000: Landscape_000
+    400002: Landscape_001
+    400004: Landscape_002
+    400006: Landscape_004
+    400008: Landscape_005
+    400010: Landscape_006
+    400012: Landscape_007
+    400014: Landscape_008
+    400016: Landscape_009
+    400018: Landscape_010
+    400020: Landscape_011
+    400022: Landscape_012
+    400024: Landscape_013
+    400026: Landscape_014
+    400028: Landscape_015
+    400030: Landscape_016
+    400032: Landscape_017
+    400034: Landscape_018
+    400036: Landscape_019
+    400038: Landscape_020
+    400040: Plane
+    400042: //RootNode
+    400044: Untitled
+    2100000: DUNAS
+    2100002: Tierra
+    2100004: Fondo
+    2100006: Material
+    2100008: iZQUIERDA
+    2100010: 2
+    2100012: 3
+    2100014: 4
+    2100016: 5
+    2100018: 6
+    2100020: 7
+    2100022: 1
+    2100024: 8
+    2100026: FondoParteInferior
+    2100028: CentroDePelea
+    2100030: FondoParteIzquierda
+    2100032: FondoParteIzquierda3
+    2100034: FondoParteIzquierda3_001
+    2100036: FondoParteIzquierda2
+    2300000: Landscape_000
+    2300002: Landscape_001
+    2300004: Landscape_002
+    2300006: Landscape_004
+    2300008: Landscape_005
+    2300010: Landscape_006
+    2300012: Landscape_007
+    2300014: Landscape_008
+    2300016: Landscape_009
+    2300018: Landscape_010
+    2300020: Landscape_011
+    2300022: Landscape_012
+    2300024: Landscape_013
+    2300026: Landscape_014
+    2300028: Landscape_015
+    2300030: Landscape_016
+    2300032: Landscape_017
+    2300034: Landscape_018
+    2300036: Landscape_019
+    2300038: Landscape_020
+    2300040: Plane
+    2300042: Untitled
+    3300000: Landscape_000
+    3300002: Landscape_001
+    3300004: Landscape_002
+    3300006: Landscape_004
+    3300008: Landscape_005
+    3300010: Landscape_006
+    3300012: Landscape_007
+    3300014: Landscape_008
+    3300016: Landscape_009
+    3300018: Landscape_010
+    3300020: Landscape_011
+    3300022: Landscape_012
+    3300024: Landscape_013
+    3300026: Landscape_014
+    3300028: Landscape_015
+    3300030: Landscape_016
+    3300032: Landscape_017
+    3300034: Landscape_018
+    3300036: Landscape_019
+    3300038: Landscape_020
+    3300040: Plane
+    3300042: Untitled
+    4300000: Plane
+    4300002: Landscape_020
+    4300004: Landscape_019
+    4300006: Landscape_018
+    4300008: Landscape_017
+    4300010: Landscape_016
+    4300012: Landscape_015
+    4300014: Landscape_014
+    4300016: Landscape_013
+    4300018: Landscape_012
+    4300020: Landscape_011
+    4300022: Landscape_010
+    4300024: Landscape_008
+    4300026: Landscape_005
+    4300028: Landscape_001
+    4300030: Landscape_009
+    4300032: Landscape_007
+    4300034: Landscape_006
+    4300036: Landscape_004
+    4300038: Untitled
+    4300040: Landscape_000
+    4300042: Landscape_002
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
