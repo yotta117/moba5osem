@@ -104,11 +104,16 @@ public class Vista : MonoBehaviour
         }
 
         RaycastHit rayoApuntarVista;
-        if (Physics.Raycast(camaraVista.position, camaraVista.TransformDirection(Vector3.forward), out rayoApuntarVista, 100))
+        if (Input.GetButtonDown("Fire1"))
         {
-            Debug.DrawRay(camaraVista.position, camaraVista.TransformDirection(Vector3.forward) * rayoApuntarVista.distance, Color.yellow);
-            jugador.posicionVista = rayoApuntarVista.point;
-            rifleFrancotirador.LookAt(rayoApuntarVista.point);
+            
+            if (Physics.Raycast(camaraVista.position, camaraVista.TransformDirection(Vector3.forward), out rayoApuntarVista, 100))
+            {
+                Debug.DrawRay(camaraVista.position, camaraVista.TransformDirection(Vector3.forward) * rayoApuntarVista.distance, Color.yellow);
+                Debug.Log(rayoApuntarVista.transform.name);
+                jugador.posicionVista = rayoApuntarVista.point;
+                rifleFrancotirador.LookAt(rayoApuntarVista.point);
+            }
         }
         else
         {

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DyingFabrica : AIState {
+    [SerializeField]
+    private Animation[] impactAnimations;
 
     public override AIStateType GetStateType()
     {
