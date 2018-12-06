@@ -135,7 +135,102 @@ ModelImporter:
     4300040: Landscape.000
     4300042: Landscape.002
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2100000, guid: 16f53abfb7626b446b251d7e9c2c0d52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2
+    second: {fileID: 2100000, guid: 9fa6f663812b1a44ba287843c17fcb61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3
+    second: {fileID: 2100000, guid: 8530fc4418d1e774fa75866710b34ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4
+    second: {fileID: 2100000, guid: 0a4e2368c6acf8349a74931d8697985e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 5
+    second: {fileID: 2100000, guid: ead9ee37d42397641b92e45ba8eca5c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 6
+    second: {fileID: 2100000, guid: 1c686cc5e59482443bfbca21773098fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 7
+    second: {fileID: 2100000, guid: 5fd1951e9d7ad1e45b3d050842913820, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 8
+    second: {fileID: 2100000, guid: 4bd168941546ef5468d039e0453a6761, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CentroDePelea
+    second: {fileID: 2100000, guid: a29dc10847989874595516ab9165e403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DUNAS
+    second: {fileID: 2100000, guid: 5b50f07701ac7f745b3f5c61e98f13ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fondo
+    second: {fileID: 2100000, guid: 8f0861c39b10d7f459b70ff99bb55522, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FondoParteInferior
+    second: {fileID: 2100000, guid: b00f02994f92b924e84d63b24817b704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FondoParteIzquierda
+    second: {fileID: 2100000, guid: b69ca7ce84eff9847b9067072c86a28d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FondoParteIzquierda2
+    second: {fileID: 2100000, guid: cfcf7fcbf500bca4bbb0c30f805d23e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FondoParteIzquierda3
+    second: {fileID: 2100000, guid: 98194e681f8e0c443a83bf570f928f01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FondoParteIzquierda3.001
+    second: {fileID: 2100000, guid: aa764201d1821b4418651e7a3db4f098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 36d18fe754c42ad418531e098396569b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tierra
+    second: {fileID: 2100000, guid: f9e089977fc900b428bcad52356cbedd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iZQUIERDA
+    second: {fileID: 2100000, guid: 03f1765e3798e234989d5913991303ed, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
