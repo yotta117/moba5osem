@@ -25,8 +25,7 @@ public class EnemyStats : MonoBehaviour {
         enemyMachine.hitDamage = true;
         randomAnimImpact = Random.Range(1, 4);
         myAnimator.SetInteger("RandomImpact", randomAnimImpact);
-        enemyMachine.hitDamage = true;
-        myAnimator.SetBool("ReceivingShoot", enemyMachine.hitDamage);
+        //myAnimator.SetBool("ReceivingShoot", enemyMachine.hitDamage);
         
         
         Debug.Log("Recibio daño" + health + "Random anim" + randomAnimImpact);

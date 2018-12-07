@@ -16,6 +16,7 @@ public class DeadFabrica : AIState {
     public override void OnEnterState()
     {
         Debug.Log("Muerto");
+        _machine.isDead = true;
     }
 
     public override void OnExitState()

@@ -209,7 +209,11 @@ public class FSM : MonoBehaviour {
                 hitDamage = false;
                 _animator.SetBool("ReceivingShoot", hitDamage);
             }
-            
+
+        }
+        else
+        {
+            _timerDanno = 1.0f;
         }
         health = _stat.health;
 
@@ -245,6 +249,7 @@ public class FSM : MonoBehaviour {
         _animator.SetFloat("Speed", _speed);
         _animator.SetBool("Attack", isAttack);
         _animator.SetBool("IsDead", isDead);
+        //_animator.SetBool("ReceivingShoot", hitDamage);
     }
 
     /// Is the animation already playing?
