@@ -23,6 +23,7 @@ public class DyingFabrica : AIState {
 
     public override AIStateType OnUpdate()
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Dying");
+        return AIStateType.Dying;
     }
 }

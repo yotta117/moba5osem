@@ -57,6 +57,10 @@ public class ChasingFabrica : AIState {
         {
             return AIStateType.Idle;
         }
+        if (_machine.health < 0.0f)
+        {
+            return AIStateType.Dead;
+        }
 
         return AIStateType.Chasing;
     }

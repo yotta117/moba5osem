@@ -58,6 +58,11 @@ public class IdleFabrica : AIState {
             return AIStateType.Chasing;
         }
 
+        if (_machine.health < 0.0f)
+        {
+            return AIStateType.Dead;
+        }
+
         //Debug.Log(Vector3.Distance(_machine.playerTarget.transform.position,transform.position) + "Distancia jugador:" + enemyDetectDistance);
 
             //if (Mathf.Abs(angle) < _minAngle && Vector3.Distance(_machine.playerTarget.transform.position,transform.position) < _enemyDetectDistance)

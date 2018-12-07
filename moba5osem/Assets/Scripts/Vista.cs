@@ -40,7 +40,15 @@ public class Vista : MonoBehaviour
     #endregion
     //--|||--|||--
     #region Propiedades Constantes
+    [SerializeField]
+    private float damage = 20f;
+    [SerializeField]
+    private float range = 200f;
+    EnemyStats stat;
+    FSM enemyMachine;
 
+    private float _timer = 1.0f;
+    
     #endregion
 
 
@@ -56,6 +64,7 @@ public class Vista : MonoBehaviour
         camaraVista = pivoteCamara.transform.GetChild(0);
         posicionVistaPerdida = camaraVista.GetChild(0);
         SwitchBloquearMouse();
+        enemyMachine = GetComponent<FSM>();
         //rifleFrancotirador = transform.GetChild(1);
     }
     private void OnEnable()
@@ -85,6 +94,7 @@ public class Vista : MonoBehaviour
 
     //--|||--|||--
     #region Metodos Clase
+    
     // Metodo encargado de mover la camara como un FPS estandard.
     private void Apuntar()
     {
@@ -107,12 +117,19 @@ public class Vista : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             
-            if (Physics.Raycast(camaraVista.position, camaraVista.TransformDirection(Vector3.forward), out rayoApuntarVista, 100))
+            if (Physics.Raycast(camaraVista.position, camaraVista.TransformDirection(Vector3.forward), out rayoApuntarVista, range))
             {
                 Debug.DrawRay(camaraVista.position, camaraVista.TransformDirection(Vector3.forward) * rayoApuntarVista.distance, Color.yellow);
                 Debug.Log(rayoApuntarVista.transform.name);
                 jugador.posicionVista = rayoApuntarVista.point;
                 rifleFrancotirador.LookAt(rayoApuntarVista.point);
+
+                EnemyStats stat = rayoApuntarVista.transform.GetComponent<EnemyStats>();
+                if (stat != null)
+                {
+                    stat.Damage(damage);
+                    //Debug.Log("Recibio impacto" + stat.health);
+                }
             }
         }
         else

@@ -33,7 +33,21 @@ public class FSM : MonoBehaviour {
     private bool _useRootPosition = false;
     public bool isTurning = false;
     public bool isAttack = false;
-    public bool hitDamage;
+    //Recibir daño
+    public bool hitDamage = false;
+    private Vista _vistaHit = null;
+    private float _timerDanno = 1.0f;
+    public bool isDead = false;
+    [HideInInspector]
+    public float health;
+
+    public Vista VistaHit
+    {
+        get
+        {
+            return _vistaHit;
+        }
+    }
 
     [SerializeField]
     private AIWaypointNet _waypointNetwork = null;
@@ -43,6 +57,17 @@ public class FSM : MonoBehaviour {
         get
         {
             return _waypointNetwork;
+        }
+    }
+
+    
+    private EnemyStats _stat = null;
+
+    public EnemyStats enemyStat
+    {
+        get
+        {
+            return _stat;
         }
     }
 
@@ -108,6 +133,8 @@ public class FSM : MonoBehaviour {
     {
         _animator = GetComponent<Animator>();
         _navAgent = GetComponent<NavMeshAgent>();
+        _stat = GetComponent<EnemyStats>();
+        _vistaHit = GetComponent<Vista>();
         playerTarget = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -173,6 +200,19 @@ public class FSM : MonoBehaviour {
             _currentStateType = newStateType;
         }
 
+        Debug.Log("Daño" + _stat.health);
+        if (hitDamage == true)
+        {
+            _timerDanno -= Time.deltaTime;
+            if (_timerDanno < 0.0f)
+            {
+                hitDamage = false;
+                _animator.SetBool("ReceivingShoot", hitDamage);
+            }
+            
+        }
+        health = _stat.health;
+
     }
 
     /// Configure animation root motion
@@ -204,6 +244,7 @@ public class FSM : MonoBehaviour {
         _animator.SetFloat("TurnOnSpot", _turnOnSpot);
         _animator.SetFloat("Speed", _speed);
         _animator.SetBool("Attack", isAttack);
+        _animator.SetBool("IsDead", isDead);
     }
 
     /// Is the animation already playing?

@@ -58,6 +58,10 @@ public class AttackFabrica : AIState {
             _machine.isAttack = false;
             return AIStateType.Chasing;
         }
+        if (_machine.health < 0.0f)
+        {
+            return AIStateType.Dead;
+        }
         return AIStateType.Attack;
     }
 }

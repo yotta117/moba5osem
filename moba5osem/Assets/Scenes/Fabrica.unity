@@ -3641,6 +3641,8 @@ MonoBehaviour:
   suavizado: 2
   mouseBloqueado: 0
   rifleFrancotirador: {fileID: 959565324}
+  damage: 20
+  range: 100
 --- !u!114 &527876017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11521,6 +11523,18 @@ MonoBehaviour:
   _stoppingDistance: 1
   _exitDistance: 15
   _attackDistance: 2
+--- !u!114 &1810550529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810550525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd1217c53876e1499523e2989649b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!114 &1810550530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11536,6 +11550,18 @@ MonoBehaviour:
   enemyDetectDistance: 15
   _maxAngle: 45
   _minAngle: 20
+--- !u!114 &1810550536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810550525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af196963807d89c4e82d46832d27c678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetoAInstanciar: {fileID: 100000, guid: 8e345765d76d36944a9d26d2ccfa4626, type: 3}
 --- !u!1001 &1812915333
 Prefab:
   m_ObjectHideFlags: 0
